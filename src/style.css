@@ -1,0 +1,26 @@
+html, body {
+    background-color: #1F618D;
+    height: 400px;
+  
+  }
+  .fondo
+  {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+  }
+  .cifrado
+  {
+    position:absolute;
+    top: 25px;
+    left: 250px;
+    z-index: 2;
+  }
+  .descifrado
+  {
+    position:absolute;
+    top: 25px;
+    left: 750px;
+    z-index: 2;
+  }
