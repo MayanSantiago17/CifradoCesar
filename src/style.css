@@ -1,26 +1,73 @@
-html, body {
-    background-color: #1F618D;
-    height: 400px;
-  
-  }
-  .fondo
-  {
-    position:absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1;
-  }
-  .cifrado
-  {
-    position:absolute;
-    top: 25px;
-    left: 250px;
-    z-index: 2;
-  }
-  .descifrado
-  {
-    position:absolute;
-    top: 25px;
-    left: 750px;
-    z-index: 2;
-  }
+body {
+  background-color: rgb(251, 212, 141);
+  width: 1920px; height: 1080px;;
+  font-family: arial,sans-serif;
+}
+
+.fondos
+{
+  position:absolute;
+  top: 10px;
+  left: 5px;
+  z-index: 1;
+  width: 1920px; height: 1080px;
+}
+.fondos h1 {
+  color: #3d71a5;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 4rem;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.fondos p {
+  color: #679fa4;
+  font-family: arial, sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  top: 180px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 3px rgba(252, 251, 251, 0.99);
+}
+
+.cifrado
+{
+  position:absolute;
+  top: 470px;
+  left: 40px;
+  overflow: hidden;
+  margin: 1px auto;
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 4;
+}
+.cifrado:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 6px rgb(169, 167, 167);
+}
+
+
+.descifrar
+{
+  position:absolute;
+  top:470px;
+  left: 1000px;
+  overflow: hidden;
+  margin: 1px auto;
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 5;
+}
+.descifrar:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 6px rgb(169, 167, 167);
+}
+
+
