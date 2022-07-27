@@ -14,24 +14,61 @@
       <h1> CIFRADO CESAR </h1> 
       <p> Con esta herramienta podras escribir tu mensaje y eligiendo una clave crear tu mensaje secreto.</p>
       <img src="fondoc.png">
-    
-    </section>
 
-  
-    
-    <input type="image" id="descifrar" src="descifrarb.png" height="569" width="294" class="descifrar"> 
+      <div>
+        <form>
+          <label for="valor" id="valorcifrado">Elige el valor de cifrado:</label>
+        </form>
+          <select name="saltos" id="dropdown123" >
 
-    <div id="cifrado">
-      <button type="button" id="cifrado"> <img src="cifrarb.png" height ="569" width="294" class="cifrado" /></button>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
       
-    </div>
-
-   
 
 
-    <div id="root">
-      
-    </div>
+          </select>
+       
+
+        </div>
+    
+      </section>
+
+
+        <div>
+         <form>
+            <button type="button" id="cifrar" height ="569" width="294" class="cifrado"> <img src="cifrarb.png"/></button>
+            <button type="button" id="descifrar" height="569" width="294" class="descifrar"> <img src="descifrarb.png"/></button>
+    
+            <input type="text" id="msjpcifrar" height="392" width="529" class="boxcifrado">
+            <input type="text" id="msjpdescifrar" height="392" width="529" class="boxdescifrado">
+          </form>
+         </div>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
