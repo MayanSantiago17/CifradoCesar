@@ -10,13 +10,13 @@ function cesar(){
     document.getElementById("cifrar").addEventListener("click",function(){
         let text = document.getElementById("msjpcifrar").value;
         let offset = document.getElementById("dropdown123").value;
-        document.getElementById("msjpdescifrar").value = cipher.cifrar(offset, text);
+        document.getElementById("msjpdescifrar").value = cipher.encode(offset, text);
     }, true)
 
     document.getElementById("descifrar").addEventListener("click",function(){
         let text2 = document.getElementById("msjpdescifrar").value;
         let offset2 = document.getElementById("dropdown123").value;
-        document.getElementById("msjpcifrar").value = cipher.descifrar(offset2, text2);
+        document.getElementById("msjpcifrar").value = cipher.decode(offset2, text2);
     }, true);
 
     
