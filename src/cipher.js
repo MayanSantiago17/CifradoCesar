@@ -16,7 +16,7 @@ const cipher = {
         let inputNewText = String.fromCharCode(inputText);
         result += inputNewText;
       } 
-      else {if (newText >= 97 && newText <= 122){
+      else {if (newText >= 97 && newText <= 122){      //encadenando resultados
         let inputText = (newText - 97 + newOffset) % 26 + 97;
         let inputNewText = String.fromCharCode(inputText);
         result += inputNewText; 

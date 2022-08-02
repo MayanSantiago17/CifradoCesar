@@ -1,5 +1,6 @@
 import cipher from './cipher.js';
 
+//tipo de evento, objeto(funcion),inicio de captura
 window.addEventListener("load", cesar, true);
 
 function cesar(){
